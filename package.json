@@ -1,0 +1,30 @@
+{
+  "name": "conventionalcommits",
+  "version": "0.0.1",
+  "description": "Example for conventional commits implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/augustofferrari/conventional_commits_example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/augustofferrari/conventional_commits_example/issues"
+  },
+  "homepage": "https://github.com/augustofferrari/conventional_commits_example#readme",
+  "dependencies": {
+    "commitizen": "^4.2.3"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
