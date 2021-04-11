@@ -1,10 +1,10 @@
 {
   "name": "conventionalcommits",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Example for conventional commits implementation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,8 @@
     "commitizen": "^4.2.3"
   },
   "devDependencies": {
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "standard-version": "^9.2.0"
   },
   "config": {
     "commitizen": {
